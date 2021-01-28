@@ -1,0 +1,23 @@
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+
+logging:
+  level:
+    org:
+      springframework:
+        web: debug
+
+exercise:
+  userDetails:
+    - email: johnson.k@bt.com
+      password: BtLondon5
+      name: Johnson kat
+    - email: jyotigusainnhg@gmail.com
+      password: Tanishq123
+      name: Jyoti Gusain
+    - email: test.user@bt.com
+      password: TestUser5
+      name: Test User
